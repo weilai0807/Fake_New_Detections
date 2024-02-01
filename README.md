@@ -14,7 +14,7 @@ As technology advances, the proliferation of fake news extends across diverse so
 **RO3**: To evaluate proposed machine learning models using appropriate evaluation metrics.  
 
 ## Literature Review
-You may refer to the research paper for this section. [Link]("https://miro.medium.com/max/1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg")
+You may refer to the research paper for this section. [Link](https://miro.medium.com/max/1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg)
 ## Methodology
 
 ## Results and Discussion
