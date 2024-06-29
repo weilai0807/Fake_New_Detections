@@ -16,7 +16,7 @@ As technology advances, the proliferation of fake news extends across diverse so
 ## Literature Review
 You may refer to the research paper for this section. [Link](https://miro.medium.com/max/1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg)
 ## Methodology
-![Screenshot]()
+![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 ## Results and Discussion
 
 ## Conclusion
