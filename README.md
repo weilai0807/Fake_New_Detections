@@ -15,6 +15,8 @@ A well-structured methodology was employed for detecting fake news.
 
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 
+###Data Understanding
+
 
 
 ## Results and Discussion
