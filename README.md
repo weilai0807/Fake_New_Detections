@@ -12,6 +12,7 @@ As technology advances, the proliferation of fake news extends across diverse so
 
 ## Methodology
 A well-structured methodology was employed for detecting fake news.  
+
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 
 
