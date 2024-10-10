@@ -10,8 +10,6 @@ As technology advances, the proliferation of fake news extends across diverse so
 **RO2**: To propose machine learning models capable of accurately detecting fake news.  
 **RO3**: To evaluate proposed machine learning models using appropriate evaluation metrics.  
 
-## Literature Review
-You may refer to the research paper for this section. [Link](https://miro.medium.com/max/1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg)
 ## Methodology
 A well-structured methodology was employed for detecting fake news.  
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
