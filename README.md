@@ -38,14 +38,14 @@ A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-
 #### Exploratory Data Analysis (EDA)
 A basic EDA was conducted to gain a deeper understanding of the dataset.
 
-Image below indicates the dataset consists of 14 features, including 12 features with object data type and 2 features with integer data type, and 8,558 rows of data. 
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)  
+Image below indicates the dataset consists of 14 features, including 12 features with object data type and 2 features with integer data type, and 8,558 rows of data.  
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
 
-Image below indicates an imbalance in the dataset as the number of fake news is higher than true news
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Distribution%20of%20true%20and%20fake%20news.png)  
+Image below indicates an imbalance in the dataset as the number of fake news is higher than true news.  
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Distribution%20of%20true%20and%20fake%20news.png)
 
-Image below indicates the specific terms of true and fake news that frequently appear.The term that stands out in the WordCloud for fake news suggest that these terms typically accompany fake news content.
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Wordcloud%20of%20true%20and%20fake%20news.png)  
+Image below indicates the specific terms of true and fake news that frequently appear.The term that stands out in the WordCloud for fake news suggest that these terms typically accompany fake news content.  
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Wordcloud%20of%20true%20and%20fake%20news.png)
 
 
 
