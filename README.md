@@ -38,7 +38,7 @@ A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-
 #### Exploratory Data Analysis (EDA)
 A basic EDA was conducted to gain a deeper understanding of the dataset.
 
-![image]()
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
 
 
 
