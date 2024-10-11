@@ -15,7 +15,20 @@ A well-structured methodology was employed for detecting fake news.
 
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 
-###Data Understanding
+### Data Understanding
+A Chinese dataset named CHEF was collected from Github, it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset. 
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+### Data Preparation
+### Modeling
+### Evaluation
+
+
 
 
 
