@@ -18,11 +18,40 @@ A well-structured methodology was employed for detecting fake news.
 ### Data Understanding
 A Chinese dataset named CHEF was collected from Github, it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset. 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Variables            | Description                                                      |
+| -------------------- | ---------------------------------------------------------------- |
+| Claim                | Statement being made                                             |
+| Title                | Title of the fact-checking news                                  |
+| Source               | Source of claim                                                  |
+| ClaimWeb             | Website of fact-checking news                                    |
+| Category             | Category of fact-checking news                                   |
+| Url                  | Uniform Resource Locator (URL) of fact-checking news             |
+| Publish_date         | Publish Date of fact-checking news                               |
+| Editor               | Editor of fact-checking news                                     |
+| Label                | Label of claim; 0 = true, 1 = fake                               |
+| ClaimId              | ID of claim                                                      |
+| Domain               | Domain of claim                                                  |
+| Verification method  | Method used to verify the authenticity of claim                  |
+| Evidence             | Supporting evidence for evaluation or verification of claim      |
+| Gold evidence        | Crucial short evidence for evaluation or verification of claim.  |
+
+Claim	Statement being made
+Title	Title of the fact-checking news
+Source	Source of claim
+ClaimWeb	Website of fact-checking news
+Category	Category of fact-checking news
+Url	Uniform Resource Locator (URL) of fact-checking news
+Publish_date	Publish Date of fact-checking news
+Editor	Editor of fact-checking news
+Label	Label of claim; 0 = true, 1 = fake
+ClaimId	ID of claim
+Domain	Domain of claim
+Verification method	Method used to verify the authenticity of claim
+Evidence	Supporting evidence for evaluation or verification of claim 
+Gold evidence	Crucial short evidence for evaluation or verification of claim.
+
+
+
 
 ### Data Preparation
 ### Modeling
