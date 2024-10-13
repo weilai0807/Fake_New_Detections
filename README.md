@@ -16,7 +16,7 @@ A well-structured methodology was employed for detecting fake news.
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 
 ### Data Understanding
-A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-BPM/CHEF?tab=readme-ov-file), it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset.
+A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-BPM/CHEF?tab=readme-ov-file), it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset. The table below shows the variables name and the description.
 
 | Variables            | Description                                                      |
 | -------------------- | ---------------------------------------------------------------- |
@@ -57,6 +57,10 @@ Jieba, a powerful open-source Chinese text segmentation module, is used in this 
 | 失业保险金不等于失业补助金。    | 失业 保险金 不 等于 失业 补助金        |
 | 退休职工养老金能按时足额发放。  | 退休职工 养老金 能 按时 足额 发放      |
 | 中国污水处理能力限制城市发展。  | 中国 污水处理 能力 限制 城市 发展      |
+
+#### Feature Extraction
+BoW, TF-IDF, BoW-TFIDF and Word2Vec are applied individually to the tokenized text to transform the textual data into numerical vectors. 
+**Bag of Word (BoW)** captures the frequency of each word and it did not consider the grammatical order or structure of the words in the text. Every word within a document is treated as a discrete "token," and the outcome is a numerical vector that represents the frequency of each word.
 
 
 ### Modeling
