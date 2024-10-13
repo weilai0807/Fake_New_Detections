@@ -64,7 +64,13 @@ Jieba, a powerful open-source Chinese text segmentation module, is used in this 
 #### Feature Extraction
 BoW, TF-IDF, BoW-TFIDF and Word2Vec are applied individually to the tokenized text to transform the textual data into numerical vectors.   
 
-**Bag of Word (BoW)** captures the frequency of each word and it did not consider the grammatical order or structure of the words in the text. Every word within a document is treated as a discrete "token," and the outcome is a numerical vector that represents the frequency of each word.
+**Bag of Word (BoW)** captures the frequency of each word and it did not consider the grammatical order or structure of the words in the text. Every word within a document is treated as a discrete "token," and the outcome is a numerical vector that represents the frequency of each word.  
+
+**Term Frequency-Inverse Document Frequency (TF-IDF)** is the multiplication of TF and IDF. TF will calculate the term frequency while IDF quantifies the importance of a word across the entire collection of documents. It effectively captures the significance of words in documents by considering their frequency across the entire document collection.  
+
+**BoW-TFIDF** is a combination of BoW and TF-IDF. BoW, emphasizing the each word frequency in a document, is applied initially to tokenized text, generating a numerical vector. Subsequently, TF-IDF is applied to these numerical vectors, creating another numerical vector that not only captures word frequency but also considers the importance of words across the entire corpus. 
+
+**Word2vec** is a word embedding technique used to capture the semantic and syntactic between the words based on their context. It utilizes 2 architectures, including Continuous Bag of Words (CBOW) and Skip Gram, the former predicts the target word based on the context words while the latter predict the context words based on the target word.
 
 
 ### Modeling
