@@ -59,7 +59,7 @@ Jieba, a powerful open-source Chinese text segmentation module, is used in this 
 | 中国污水处理能力限制城市发展。  | 中国 污水处理 能力 限制 城市 发展      |
 
 #### Feature Extraction
-BoW, TF-IDF, BoW-TFIDF and Word2Vec are applied individually to the tokenized text to transform the textual data into numerical vectors. 
+BoW, TF-IDF, BoW-TFIDF and Word2Vec are applied individually to the tokenized text to transform the textual data into numerical vectors.   
 **Bag of Word (BoW)** captures the frequency of each word and it did not consider the grammatical order or structure of the words in the text. Every word within a document is treated as a discrete "token," and the outcome is a numerical vector that represents the frequency of each word.
 
 
