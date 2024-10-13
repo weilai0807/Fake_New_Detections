@@ -39,12 +39,15 @@ A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-
 A basic EDA was conducted to gain a deeper understanding of the dataset.
 
 Image below indicates the dataset consists of 14 features, including 12 features with object data type and 2 features with integer data type, and 8,558 rows of data.  
+
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
 
 Image below indicates an imbalance in the dataset as the number of fake news is higher than true news.  
+
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Distribution%20of%20true%20and%20fake%20news.png)
 
 Image below indicates the specific terms of true and fake news that frequently appear.The term that stands out in the WordCloud for fake news suggest that these terms typically accompany fake news content.  
+
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Wordcloud%20of%20true%20and%20fake%20news.png)
 
 
@@ -60,6 +63,7 @@ Jieba, a powerful open-source Chinese text segmentation module, is used in this 
 
 #### Feature Extraction
 BoW, TF-IDF, BoW-TFIDF and Word2Vec are applied individually to the tokenized text to transform the textual data into numerical vectors.   
+
 **Bag of Word (BoW)** captures the frequency of each word and it did not consider the grammatical order or structure of the words in the text. Every word within a document is treated as a discrete "token," and the outcome is a numerical vector that represents the frequency of each word.
 
 
