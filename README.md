@@ -16,7 +16,7 @@ A well-structured methodology was employed for detecting fake news.
 ![Screenshot](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Methodology.png)
 
 ### Data Understanding
-A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-BPM/CHEF?tab=readme-ov-file), it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset. 
+A Chinese dataset named CHEF was collected from [Github](https://github.com/THU-BPM/CHEF?tab=readme-ov-file), it consists of 14 features and 8,558 rows. There are about 5,015 rows are labelled as fake news and 3,543 rows are true news in the dataset.
 
 | Variables            | Description                                                      |
 | -------------------- | ---------------------------------------------------------------- |
@@ -48,8 +48,11 @@ Image below indicates the specific terms of true and fake news that frequently a
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Wordcloud%20of%20true%20and%20fake%20news.png)
 
 
-
 ### Data Preparation
+#### Data Preprocessing
+Jieba, a powerful open-source Chinese text segmentation module, is used in this study for eliminating the IP addresses, stop words and punctuation from the text. Apart from that, Jieba is also employed for text tokenization. The table below shows some examples of claim after tokenization with Jieba.
+
+
 ### Modeling
 ### Evaluation
 
