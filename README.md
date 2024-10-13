@@ -52,6 +52,12 @@ Image below indicates the specific terms of true and fake news that frequently a
 #### Data Preprocessing
 Jieba, a powerful open-source Chinese text segmentation module, is used in this study for eliminating the IP addresses, stop words and punctuation from the text. Apart from that, Jieba is also employed for text tokenization. The table below shows some examples of claim after tokenization with Jieba.
 
+| Claim                        | After tokenization                   |
+| --------------------         | -----------------------------------  |
+| 失业保险金不等于失业补助金。    | 失业 保险金 不 等于 失业 补助金        |
+| 退休职工养老金能按时足额发放。  | 退休职工 养老金 能 按时 足额 发放      |
+| 中国污水处理能力限制城市发展。  | 中国 污水处理 能力 限制 城市 发展      |
+
 
 ### Modeling
 ### Evaluation
