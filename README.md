@@ -53,7 +53,7 @@ Image below indicates the specific terms of true and fake news that frequently a
 
 ### Data Preparation
 #### Data Preprocessing
-Jieba, a powerful open-source Chinese text segmentation module, is used in this study for eliminating the IP addresses, stop words and punctuation from the text. Apart from that, Jieba is also employed for text tokenization. The table below shows some examples of claim after tokenization with Jieba.
+**Jieba**, a powerful open-source Chinese text segmentation module, is used in this study for eliminating the IP addresses, stop words and punctuation from the text. Apart from that, Jieba is also employed for text tokenization. The table below shows some examples of claim after tokenization with Jieba.
 
 | Claim                        | After tokenization                   |
 | --------------------         | -----------------------------------  |
