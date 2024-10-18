@@ -138,6 +138,6 @@ The SVM model with BoW-TFIDF has been chosen for the development of the data pro
 
 ## Conclusion
 ### Achievements
-The result of this study has successfully addressed the Research Question (RQ) and Research Objective (RO) outlined in [Introduction](#Introduction). The application of 5 feature extraction techniques revealed that BoW-TFIDF stands out as the best method for enhancing the ML algorithms performance. A comprehensive comparison involving feature extraction techniques and ML algorithms was done to identify the most effective pairing. Lastly, evaluation metrics such as accuracy, precision, recall and F1-score are used to measure the performance of ML models.
-Based on the result in Chapter 4, SVM with BoW-TFIDF is the best model that can accurately detect fake news. It also been deployed on the Streamlit Community Cloud for public accessibility.
+The result of this study has successfully addressed the Research Question (RQ) and Research Objective (RO) outlined in [Introduction](#Introduction). The application of 5 feature extraction techniques revealed that **BoW-TFIDF** stands out as the best method for enhancing the ML algorithms performance. A comprehensive comparison involving feature extraction techniques and ML algorithms was done to identify the most effective pairing. Lastly, evaluation metrics such as accuracy, precision, recall and F1-score are used to measure the performance of ML models.
+Based on the result in [Result and Discussion](#Results-and-Discussion), SVM with BoW-TFIDF is the best model that can accurately detect fake news. It also been deployed on the Streamlit Community Cloud for public accessibility.
 
