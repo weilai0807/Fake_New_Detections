@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c9fdbac-7647-447d-8d3a-f64c61b85aa3)# Fake Chinese New Detections Using Machine Learning Approaches
+# Fake Chinese New Detections Using Machine Learning Approaches
 ## Introduction
 As technology advances, the proliferation of fake news extends across diverse social media platforms and websites. Misleading information can lead individuals to make incorrect decisions and carries the potential to harm society if left unchecked. Individuals should engage in fact-checking for every piece of news they receive. However, it will be timeconsuming for individuals if they need to fact checking on every news without a proper system. Hence, there is a crucial need to identify an efficient solution for accurately detecting fake news.
 ### Research Questions (RQ)
