@@ -103,7 +103,7 @@ The hybrid CNN-LSTM model utilized the strengths of both Convolutional Neural Ne
 
 **Accuracy** is calculated by dividing the sum of TP and TN by the sum of TP, TN, FP and FN. The formula of accuracy is shown below:  
 
-![image]()  
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Accuracy.png)  
 
 TP is True Positives, TN is True Negatives, FP is False Positives and  FN is False Negatives.
 
