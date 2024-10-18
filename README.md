@@ -135,7 +135,6 @@ In conclusion, the superior performance of SVM with BoW-TFIDF among traditional 
 ### Fake news detection web application
 The SVM model with BoW-TFIDF has been chosen for the development of the data product as it achieved the highest accuracy rate of 86.04%. The fake new detection web application can be accessed through the following link: [Fake News Detection Web App](https://fakenewsdetectionapp.streamlit.app/).  
 
-  The web application consists of 2 pages: "Home" and "FAQ." On the "Home" page, users can input the news title or content to detect the fake news, and the prediction is made using the selected model. Figure 4.8 illustrates an example where the input news is identified as true. Additionally, the "Home" page provides links to Chinese fact-checking websites. The "FAQ" page is designed to address frequently asked questions. 
 
 ## Conclusion
 
