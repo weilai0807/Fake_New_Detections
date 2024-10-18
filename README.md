@@ -120,7 +120,7 @@ TP is True Positives, TN is True Negatives, FP is False Positives and  FN is Fal
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/F1-Score.png)
 
 ### Deployment
-After determining the optimal model, the next step involves deploying it using Streamlit, a Python-based open-source application framework. Initially, the model is saved as a SAV file, and subsequently, it is loaded into the Spyder (anaconda3) for data product deployments. Apart from model loading, this phase also involves designing the interface of the web application to ensure simplicity and user-friendliness. After that, it is deployed on the Streamlit Community Cloud, making it accessible to the public. You may access the application with this ![link](https://fakenewsdetectionapp.streamlit.app/)
+After determining the optimal model, the next step involves deploying it using Streamlit, a Python-based open-source application framework. Initially, the model is saved as a SAV file, and subsequently, it is loaded into the Spyder (anaconda3) for data product deployments. Apart from model loading, this phase also involves designing the interface of the web application to ensure simplicity and user-friendliness. After that, it is deployed on the Streamlit Community Cloud, making it accessible to the public. You may access the application with this [link](https://fakenewsdetectionapp.streamlit.app/).
 
 ## Results and Discussion
 
