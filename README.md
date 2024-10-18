@@ -1,6 +1,6 @@
 # Fake Chinese New Detections Using Machine Learning Approaches
 ## Introduction
-As technology advances, the proliferation of fake news extends across diverse social media platforms and websites. Misleading information can lead individuals to make incorrect decisions and carries the potential to harm society if left unchecked. Individuals should engage in fact-checking for every piece of news they receive. However, it will be timeconsuming for individuals if they need to fact checking on every news without a proper system. Hence, there is a crucial need to identify an efficient solution for accurately detecting fake news.
+As technology advances, the proliferation of fake news extends across diverse social media platforms and websites. Misleading information can lead individuals to make incorrect decisions and carries the potential to harm society if left unchecked. Individuals should engage in fact-checking for every piece of news they receive. However, it will be time consuming for individuals if they need to fact checking on every news without a proper system. Hence, there is a crucial need to identify an efficient solution for accurately detecting fake news.
 ### Research Questions (RQ)
 **RQ1**: What are the most effective feature extraction techniques to ensure detection accuracy?  
 **RQ2**: How to improve machine learning models through hyperparameter tuning to accurately detect the fake news?  
@@ -120,9 +120,20 @@ TP is True Positives, TN is True Negatives, FP is False Positives and  FN is Fal
 ![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/F1-Score.png)
 
 ### Deployment
-After determining the optimal model, the next step involves deploying it using Streamlit, a Python-based open-source application framework. Initially, the model is saved as a SAV file, and subsequently, it is loaded into the Spyder (anaconda3) for data product deployments. Apart from model loading, this phase also involves designing the interface of the web application to ensure simplicity and user-friendliness. After that, it is deployed on the Streamlit Community Cloud, making it accessible to the public. You may access the application with this [link](https://fakenewsdetectionapp.streamlit.app/).
+After determining the optimal model, the next step involves deploying it using Streamlit, a Python-based open-source application framework. Initially, the model is saved as a SAV file, and subsequently, it is loaded into the Spyder (anaconda3) for data product deployments. Apart from model loading, this phase also involves designing the interface of the web application to ensure simplicity and user-friendliness. After that, it is deployed on the Streamlit Community Cloud, making it accessible to the public.
 
 ## Results and Discussion
+### Performance of all models on fake new classifications
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/4.3%20Result%201.png)  
+
+Table above presents the results of 4 traditional ML algorithms and 3 DL algorithms with 5 feature extraction techniques. Image illustrates that the traditional ML model exhibiting the highest performance is SVM with BoW-TFIDF, achieving an accuracy of 86.04%. On the other hand, the deep learning model with the best performance is CNN with Baselines, achieving an accuracy of 84.40%. Several factors contribute to this discrepancy. DL models exhibit lower performance compared to traditional ML models because DL models may require more data to train, but the dataset employed in this study is relatively small. Furthermore, finding the optimal hyperparameter for deep learning could be challenging as deep learning models often involve a large number of hyperparameters. Besides, traditional machine learning models often excel in simpler tasks, whereas the increased complexity of deep learning models makes them more suitable for complex tasks.
+In conclusion, the superior performance of SVM with BoW-TFIDF among traditional ML models performs better than the DL models, CNN with baselines in this study due to the reason mentioned above.  
+
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/4.3%20Result%202.png)
+
+### Fake news detection web application
+The SVM model with BoW-TFIDF has been chosen for the development of the data product as it achieved the highest accuracy rate of 86.04%. The fake new detection web application can be accessed through the following link: [Fake News Detection Web App](https://fakenewsdetectionapp.streamlit.app/).  
+  The web application consists of 2 pages: "Home" and "FAQ." On the "Home" page, users can input the news title or content to detect the fake news, and the prediction is made using the selected model. Figure 4.8 illustrates an example where the input news is identified as true. Additionally, the "Home" page provides links to Chinese fact-checking websites. The "FAQ" page is designed to address frequently asked questions. 
 
 ## Conclusion
 
