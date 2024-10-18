@@ -103,21 +103,21 @@ The hybrid CNN-LSTM model utilized the strengths of both Convolutional Neural Ne
 
 **Accuracy** is calculated by dividing the sum of TP and TN by the sum of TP, TN, FP and FN. The formula of accuracy is shown below:  
 
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)  
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Accuracy.png)  
 
 TP is True Positives, TN is True Negatives, FP is False Positives and  FN is False Negatives.
 
 **Precision** measures how many instances are predicted as positive out of all instances that are predicted as positive. The formula is shown below:  
 
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Precision.png)
 
 **Recall** measure how many instances are predicted as positive out of all positive instances. The formula is shown below:  
 
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Recall.png)
 
 **F1-score** is calculated with both precision and recall value, so it provides a more balanced value. The formula is shown below: 
 
-![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/Dataset%20information.png)
+![image](https://github.com/weilai0807/Fake_New_Detections/blob/main/Image/F1-Score.png)
 
 
 ## Results and Discussion
