@@ -141,4 +141,4 @@ The result of this study has successfully addressed the Research Question (RQ) a
 Based on the result in [Result and Discussion](#Results-and-Discussion), **_SVM with BoW-TFIDF_** is the best model that can accurately detect fake news. It also been deployed on the Streamlit Community Cloud for public accessibility.
 
 ## Contact
-You can contact me 
+Please feel free to contact twl0807@gmail.com if you would like request for the code
